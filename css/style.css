@@ -14,7 +14,8 @@ header {
   font-size: 20px;
 }
 header h1 {
-  background: transparent url("http://www.samsung.com/common/img/logo.svg");
+  background: transparent url("http://www.samsung.com/common/img/logo.svg") no-repeat 50% 50%;
+  color: #084081;
 }
 nav {
   background-color: #4eb3d3;
