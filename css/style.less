@@ -2,17 +2,36 @@
  
 .important, h1, h2 {
 	font-weight: bold;
+}
+
+header {
+	background : @color-primary;
 	color: @color-white;
+}
+
+nav {
+	background-color: @color-tertiary;
+	
+	ul {
+		display: inline;
+		width: 33%;
+
+		li {
+			list-style-type : none;
+			display: inline;
+			width: 33%;
+		}
+	}
 }
 
 @media (max-width: ~"@{size-tablet} - 1px") {
 	main{
-		width: @size-mobile;
+		width: 100%;
 		margin: auto;
 		border: 1px solid #6f4b4c;
 		padding: 10px;
-		background: @color-primary;
-		color : @color-white;
+		background: @color-white;
+		color : @color-black;
 		font-weight: @font-mobile;
 	}
 
@@ -24,12 +43,12 @@
 
 @media (min-width: ~"@{size-tablet}") {
 	main{
-		width: @size-tablet;
+		width: 75%;
 		margin: auto;
 		border: 1px solid #6f4b4c;
 		padding: 10px;
-		background: @color-primary;
-		color : @color-white;  
+		background: @color-white;
+		color : @color-black;  
 	} 
 
 	img {
@@ -40,12 +59,12 @@
 
 @media (min-width: ~"@{size-desktop}") {
 	main{
-		width: @size-desktop;
+		width: 75%;
 		margin: auto;
 		border: 1px solid #6f4b4c;
 		padding: 10px;
-		background: @color-primary;
-		color : @color-white; 
+		background: @color-white;
+		color : @color-black; 
 	} 
 
 	img {
@@ -56,12 +75,12 @@
 
 @media (min-width: ~"@{size-large}") {
 	main{
-		width: @size-large;
+		width: 75%;
 		margin: auto;
 		border: 1px solid #6f4b4c;
 		padding: 10px;
-		background: @color-primary;
-		color : @color-white;   
+		background: @color-white;
+		color : @color-black;   
 	}  
 
 	img {
