@@ -24,6 +24,8 @@ nav ul li {
   list-style-type: none;
   display: inline;
   margin-right: 10%;
+  color: #ffffff;
+  text-decoration: none;
 }
 @media (max-width: 768px - 1px) {
   main {
@@ -39,6 +41,9 @@ nav ul li {
     width: 421px;
     margin: 0px 30px;
   }
+  body {
+    font-size: 12px;
+  }
 }
 @media (min-width: 768px) {
   main {
@@ -52,6 +57,9 @@ nav ul li {
   img {
     width: 708px;
     margin: 0px 30px;
+  }
+  body {
+    font-size: 14px;
   }
 }
 @media (min-width: 1030px) {
@@ -67,6 +75,9 @@ nav ul li {
     width: 970px;
     margin: 0px 30px;
   }
+  body {
+    font-size: 16px;
+  }
 }
 @media (min-width: 1240px) {
   main {
@@ -80,5 +91,8 @@ nav ul li {
   img {
     width: 1180px;
     margin: 0px 30px;
+  }
+  body {
+    font-size: 18px;
   }
 }

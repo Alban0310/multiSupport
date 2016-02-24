@@ -1,5 +1,6 @@
 @import url("variable.less");
  
+
 .important, h1, h2 {
 	font-weight: bold;
 }
@@ -25,6 +26,8 @@ nav {
 			list-style-type : none;
 			display: inline;
 			margin-right: 10%;
+			color: @color-white;
+			text-decoration: none;
 		}
 	}
 }
@@ -44,6 +47,10 @@ nav {
 		width: @size-mobile - 60px;
 		margin:0px 30px;
 	} 
+
+	body {
+		font-size: @font-mobile;
+	}
 }
 
 @media (min-width: ~"@{size-tablet}") {
@@ -60,6 +67,10 @@ nav {
 		width: @size-tablet - 60px;
 		margin:0px 30px;
 	}   
+
+	body {
+		font-size: @font-tablet;
+	}
 }
 
 @media (min-width: ~"@{size-desktop}") {
@@ -76,6 +87,10 @@ nav {
 		width: @size-desktop - 60px;
 		margin:0px 30px;
 	}  
+
+	body {
+		font-size: @font-desktop;
+	}
 }
 
 @media (min-width: ~"@{size-large}") {
@@ -92,4 +107,8 @@ nav {
 		width: @size-large - 60px;
 		margin:0px 30px;
 	} 
+
+	body {
+		font-size: @font-large;
+	}
 }
