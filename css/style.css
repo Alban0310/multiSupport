@@ -2,9 +2,9 @@
 h1,
 h2 {
   font-weight: bold;
-  color: #48352f;
+  color: #ffffff;
 }
-@media (min-width: 481px) {
+@media (max-width: 768px - 1px) {
   main {
     width: 481px;
     margin: auto;
@@ -12,6 +12,7 @@ h2 {
     padding: 10px;
     background: #084081;
     color: #ffffff;
+    font-weight: 12px;
   }
   img {
     width: 421px;

@@ -2,10 +2,10 @@
  
 .important, h1, h2 {
 	font-weight: bold;
-	color: #48352f;
+	color: @color-white;
 }
 
-@media (min-width: ~"@{size-mobile}") {
+@media (max-width: ~"@{size-tablet} - 1px") {
 	main{
 		width: @size-mobile;
 		margin: auto;
@@ -13,6 +13,7 @@
 		padding: 10px;
 		background: @color-primary;
 		color : @color-white;
+		font-weight: @font-mobile;
 	}
 
 	img {
