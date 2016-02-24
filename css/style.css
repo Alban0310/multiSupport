@@ -1,17 +1,62 @@
-main {
-  width: 500px;
-  margin: auto;
-  border: 1px solid #6f4b4c;
-  padding: 10px;
-  background: #c6bcc8;
-}
-img {
-  width: 440px;
-  margin: 0px 30px;
-}
 .important,
 h1,
 h2 {
   font-weight: bold;
   color: #48352f;
+}
+@media (min-width: 481px) {
+  main {
+    width: 481px;
+    margin: auto;
+    border: 1px solid #6f4b4c;
+    padding: 10px;
+    background: #084081;
+    color: #ffffff;
+  }
+  img {
+    width: 421px;
+    margin: 0px 30px;
+  }
+}
+@media (min-width: 768px) {
+  main {
+    width: 768px;
+    margin: auto;
+    border: 1px solid #6f4b4c;
+    padding: 10px;
+    background: #084081;
+    color: #ffffff;
+  }
+  img {
+    width: 708px;
+    margin: 0px 30px;
+  }
+}
+@media (min-width: 1030px) {
+  main {
+    width: 1030px;
+    margin: auto;
+    border: 1px solid #6f4b4c;
+    padding: 10px;
+    background: #084081;
+    color: #ffffff;
+  }
+  img {
+    width: 970px;
+    margin: 0px 30px;
+  }
+}
+@media (min-width: 1240px) {
+  main {
+    width: 1240px;
+    margin: auto;
+    border: 1px solid #6f4b4c;
+    padding: 10px;
+    background: #084081;
+    color: #ffffff;
+  }
+  img {
+    width: 1180px;
+    margin: 0px 30px;
+  }
 }

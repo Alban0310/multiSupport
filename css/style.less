@@ -1,20 +1,70 @@
 @import url("variable.less");
-
- 
-main{
-	width: 500px;
-	margin: auto;
-	border: 1px solid #6f4b4c;
-	padding: 10px;
-	background: @color-primary;
-}
-
-img {
-	width: 440px;
-	margin:0px 30px;
-}
  
 .important, h1, h2 {
 	font-weight: bold;
 	color: #48352f;
+}
+
+@media (min-width: ~"@{size-mobile}") {
+	main{
+		width: @size-mobile;
+		margin: auto;
+		border: 1px solid #6f4b4c;
+		padding: 10px;
+		background: @color-primary;
+		color : @color-white;
+	}
+
+	img {
+		width: @size-mobile - 60px;
+		margin:0px 30px;
+	} 
+}
+
+@media (min-width: ~"@{size-tablet}") {
+	main{
+		width: @size-tablet;
+		margin: auto;
+		border: 1px solid #6f4b4c;
+		padding: 10px;
+		background: @color-primary;
+		color : @color-white;  
+	} 
+
+	img {
+		width: @size-tablet - 60px;
+		margin:0px 30px;
+	}   
+}
+
+@media (min-width: ~"@{size-desktop}") {
+	main{
+		width: @size-desktop;
+		margin: auto;
+		border: 1px solid #6f4b4c;
+		padding: 10px;
+		background: @color-primary;
+		color : @color-white; 
+	} 
+
+	img {
+		width: @size-desktop - 60px;
+		margin:0px 30px;
+	}  
+}
+
+@media (min-width: ~"@{size-large}") {
+	main{
+		width: @size-large;
+		margin: auto;
+		border: 1px solid #6f4b4c;
+		padding: 10px;
+		background: @color-primary;
+		color : @color-white;   
+	}  
+
+	img {
+		width: @size-large - 60px;
+		margin:0px 30px;
+	} 
 }
