@@ -6,6 +6,8 @@ h2 {
 header {
   background: #084081;
   color: #ffffff;
+  float: left;
+  width: 100%;
 }
 nav {
   background-color: #4eb3d3;
